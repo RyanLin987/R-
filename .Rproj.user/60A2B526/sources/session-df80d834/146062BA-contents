@@ -3,3 +3,4 @@ head(dat)
 
 hist(dat[,"eGFR"])
 boxplot(dat[,"eGFR"])
+pie(table(dat[,"Education"]))
